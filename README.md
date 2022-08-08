@@ -1,8 +1,9 @@
 # chi-prometheus
 
-[Prometheus](http://prometheus.io) middleware for [chi](https://github.com/go-chi/chi).
+[Prometheus](http://prometheus.io) middleware for [chi v5](https://github.com/go-chi/chi).
 
-This is a port of [negroni-prometheus](https://github.com/zbindenren/negroni-prometheus) middleware (written by [Rene Zbinden](https://github.com/zbindenren)).
+This is a fork of [chi-prometheus](https://github.com/766b/chi-prometheus) middleware that adds support for go-chi v5
+and go modules support.
 
 ## Why
 
@@ -12,7 +13,7 @@ Instead of logging request times, it is considered best practice to provide an e
 
 ## Installation
 
-    go get github.com/766b/chi-prometheus
+    go get github.com/nathan-jones/chi-prometheus
 
 ## Usage
 
